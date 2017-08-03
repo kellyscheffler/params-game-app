@@ -1,0 +1,10 @@
+<p>Guess a number between 1 and 100.</p>
+
+<%= form_tag "/guess_answer", method: :post do %>
+<div>
+  <label for = "guess"> Guess: </label> <input type = "text" name = "guess">
+</div>
+<div>
+  <input type="submit">
+</div> 
+<% end %>
